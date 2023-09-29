@@ -1,0 +1,21 @@
+%block lattice_cart
+ang
+0.0 2.1 2.1
+2.1 0.0 2.1
+2.1 2.1 0.0
+%endblock lattice_cart
+
+%block positions_frac
+Mg 0.0 0.0 0.0
+O  0.5 0.5 0.5
+%endblock positions_frac
+
+KPOINTS_MP_GRID 1 1 1 
+
+SYMMETRY_GENERATE
+
+%BLOCK SPECIES_POT
+ Mg C19 
+ O  C19
+%ENDBLOCK SPECIES_POT
+
