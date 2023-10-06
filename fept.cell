@@ -1,0 +1,21 @@
+%block lattice_cart
+ang
+2.728 0.000 0.000
+0.000 2.728 0.000
+0.000 0.000 3.737
+%endblock lattice_cart
+
+%block positions_frac
+Fe 0.0 0.0 0.0 SPIN=4
+Pt 0.5 0.5 0.5 SPIN=0
+%endblock positions_frac
+
+KPOINTS_MP_GRID 1 1 1 
+
+SYMMETRY_GENERATE
+
+%BLOCK SPECIES_POT
+ Fe C19 
+ Pt C19
+%ENDBLOCK SPECIES_POT
+
