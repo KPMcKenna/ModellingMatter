@@ -1,2 +1,2 @@
 # ModellingMatter
-Files for Modelling Matter Course
+Files for DFT part of the Modelling Matter Course
