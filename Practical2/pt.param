@@ -1,0 +1,5 @@
+task: geometry optimisation
+cut_off_energy : 400
+max_scf_cycles : 100
+xc_functional : PBE
+write_cell_structure : true

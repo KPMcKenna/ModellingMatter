@@ -1,0 +1,19 @@
+%block lattice_cart
+ang
+2.7881999016         0.0000000000         0.0000000000
+1.3940999508         2.4146519456         0.0000000000
+1.3940999508         0.8048839819         2.2765556866
+%endblock lattice_cart
+
+%block positions_frac
+Pt 0.0 0.0 0.0 SPIN=1
+%endblock positions_frac
+
+KPOINTS_MP_GRID 9 9 9
+
+SYMMETRY_GENERATE
+
+%BLOCK SPECIES_POT
+ Pt C19 
+%ENDBLOCK SPECIES_POT
+

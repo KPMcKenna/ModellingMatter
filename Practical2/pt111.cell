@@ -1,0 +1,25 @@
+%block lattice_cart
+ang
+        2.8052649498         0.0000000000         0.0000000000
+        1.4026330368         2.4294309371         0.0000000000
+        0.0000000000         0.0000000000        19.1619567871
+%endblock lattice_cart
+
+%block positions_abs
+Pt     0.000000000         0.000000000         0.000000000
+Pt     2.805266619         1.619621396         2.290483952
+Pt     1.402631164         0.809809446         4.580982685
+Pt     0.000000000         0.000000000         6.871466637
+Pt     2.805266619         1.619621396         9.161950111
+%endblock positions_abs
+
+KPOINTS_MP_GRID 3 3 1
+
+FIX_ALL_CELL : TRUE
+
+SYMMETRY_GENERATE
+
+%BLOCK SPECIES_POT
+ Pt C19 
+%ENDBLOCK SPECIES_POT
+
