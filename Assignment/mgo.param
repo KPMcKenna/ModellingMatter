@@ -1,4 +1,0 @@
-cut_off_energy : 1000 eV
-fix_occupancy : true
-xc_functional: PBE
-
