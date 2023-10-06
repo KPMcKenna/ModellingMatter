@@ -1,4 +1,0 @@
-cut_off_energy : 300
-max_scf_cycles : 100
-xc_functional : PBE
-write_cell_structure : true
