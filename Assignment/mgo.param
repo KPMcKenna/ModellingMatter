@@ -1,4 +1,0 @@
-cut_off_energy : 400 eV
-fix_occupancy : true
-xc_functional : PBE
-write_cell_structure : true
